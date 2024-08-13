@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compra de Ingressos</title>
+    <title>Apresentação</title>
     <style>
         /* Reset básico para garantir que o site tenha um visual consistente */
         * {
@@ -14,90 +14,87 @@
 
         /* Estilo do corpo */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             background-color: #f4f4f4;
             color: #333;
-            padding-bottom: 2rem; /* Adiciona um espaço no fundo para compensar a remoção do rodapé */
+            padding: 1rem;
         }
 
         /* Estilo do cabeçalho */
         header {
-            background: #333;
+            background: #007bff;
             color: #fff;
-            padding: 1rem 0;
+            padding: 1rem;
             text-align: center;
+            border-radius: 8px;
+            margin-bottom: 1rem;
         }
 
         header h1 {
             margin: 0;
+            font-size: 2rem;
         }
 
-        /* Estilo do conteúdo principal */
+        /* Estilo da seção principal */
         main {
-            padding: 1rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .movie {
             background: #fff;
             border: 1px solid #ddd;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin: 1rem;
-            padding: 1rem;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            margin: 1rem auto;
+            max-width: 800px;
+            padding: 1.5rem;
             text-align: center;
-            width: 300px;
         }
 
-        .movie img {
-            border-radius: 8px;
-            max-width: 100%;
-            height: auto;
-        }
-
-        .movie h2 {
+        main h2 {
             margin: 0.5rem 0;
+            color: #007bff;
+            font-size: 1.5rem;
         }
 
-        .btn {
-            display: inline-block;
-            padding: 0.5rem 1rem;
+        main p {
+            margin: 0.5rem 0;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .highlight {
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        .hobbies {
             margin-top: 1rem;
-            background: #333;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 4px;
-            transition: background 0.3s ease;
+            padding: 1rem;
+            border-top: 2px solid #007bff;
         }
 
-        .btn:hover {
-            background: #555;
+        .hobbies img {
+            max-width: 100px;
+            margin: 0.5rem;
+            border-radius: 8px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Compra de Ingressos para Filmes</h1>
+        <h1>Apresentação de Raul Toffoletto dos Santos</h1>
     </header>
     <main>
-        <section class="movie">
-            <h2>Vingadores: Ultimato</h2>
-            <img src="https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg" alt="Vingadores: Ultimato">
-            <a href="#" class="btn">Comprar Ingresso</a>
-        </section>
-        <section class="movie">
-            <h2>Carros 2</h2>
-            <img src="https://upload.wikimedia.org/wikipedia/pt/7/7e/Carros_2_P%C3%B4ster.jpg" alt="Carros 2">
-            <a href="#" class="btn">Comprar Ingresso</a>
-        </section>
-        <section class="movie">
-            <h2>Game of Thrones</h2>
-            <img src="https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg" alt="Game of Thrones">
-            <a href="#" class="btn">Comprar Ingresso</a>
-        </section>
+        <h2>Sobre Mim</h2>
+        <p><strong>Nome:</strong> Raul Toffoletto dos Santos</p>
+        <p><strong>Apresentação:</strong> Olá, sou o Raul. Gosto muito de assistir filmes, séries, jogos, e campeonatos.
+            Minha série favorita é <span class="highlight">Game of Thrones</span> e meu filme favorito é <span class="highlight">Vingadores: Ultimato</span>.
+            Gosto de esportes como futebol, vôlei, basquete e queimada. Adoro esportes competitivos.</p>
+        <div class="hobbies">
+            <h3>Meus Hobbies</h3>
+            <img src="https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg" alt="Filmes">
+            <img src="https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg" alt="Séries">
+            <img src="https://m.media-amazon.com/images/I/81GzIh8KENL._AC_UF1000,1000_QL80_.jpg" alt="Jogos">
+            <img src="https://i.pinimg.com/474x/79/06/1c/79061c2ad28f8d27eb2c177255c53ced.jpg" alt="Campeonatos">
+        </div>
     </main>
 </body>
 </html>
