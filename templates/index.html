@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de Ingressos</title>
+    <style>
+        /* Reset básico para garantir que o site tenha um visual consistente */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilo do corpo */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Estilo do cabeçalho */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Estilo do conteúdo principal */
+        main {
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .movie {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 1rem;
+            padding: 1rem;
+            text-align: center;
+            width: 300px;
+        }
+
+        .movie img {
+            border-radius: 8px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .movie h2 {
+            margin: 0.5rem 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            margin-top: 1rem;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #555;
+        }
+
+        /* Estilo do rodapé */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Compra de Ingressos para Filmes</h1>
+    </header>
+    <main>
+        <section class="movie">
+            <h2>Vingadores: Ultimato</h2>
+            <img src="https://via.placeholder.com/300x450?text=Vingadores%3A+Ultimato" alt="Vingadores: Ultimato">
+            <a href="#" class="btn">Comprar Ingresso</a>
+        </section>
+        <section class="movie">
+            <h2>Carros 2</h2>
+            <img src="https://via.placeholder.com/300x450?text=Carros+2" alt="Carros 2">
+            <a href="#" class="btn">Comprar Ingresso</a>
+        </section>
+        <section class="movie">
+            <h2>Game of Thrones</h2>
+            <img src="https://via.placeholder.com/300x450?text=Game+of+Thrones" alt="Game of Thrones">
+            <a href="#" class="btn">Comprar Ingresso</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Compra de Ingressos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
